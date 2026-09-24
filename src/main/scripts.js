@@ -21,7 +21,7 @@ last.
 // This is an IIFE, "Immediately Invoked Function Expression" a function which is called as soon as it is defined. 
 // Start here, this will call itself when the page loads.
 (function start() {
-    setTimeout(placeholder, 1000);
+    setTimeout(toBe, 1000);
 })();
 
 // Callback function 1
