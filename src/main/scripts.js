@@ -33,13 +33,13 @@ function friendsRomansCountrymen() {
 // Callback function 2
 function toBe() {
     opening.textContent += 'To be, ';
-    setTimeout(placeholder, 1000);
+    setTimeout(orNotToBe, 1000);
 }
 
 // Callback function 3
 function thatIsTheQuestion() {
     opening.textContent += 'that is the question: ';
-    setTimeout(placeholder, 1000);
+    setTimeout(finishSpeech, 1000);
 }
 
 // Callback function 4
@@ -51,7 +51,7 @@ function myKingdomForAHorse() {
 // Callback function 5
 function orNotToBe() {
     opening.textContent += 'or not to be, ';
-    setTimeout(placeholder, 1000);
+    setTimeout(thatIsTheQuestion, 1000);
 }
 
 // Callback function 6
